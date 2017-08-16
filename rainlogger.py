@@ -7,10 +7,11 @@ import urllib2
 conf_params={}
 
 #store parameters to a dictionary
-with open('/home/pi/rainlogger.conf') as f:
-  for line in f:
+with open('/home/pi/rainlogger.conf') as conf:
+  for line in conf:
     (key, val) = line.split('=')
-    conf_params[key] = val
+    conf_params[key] = val.strip().strip("'")
+print conf_params
 
 #GPIO pin to monitor
 PIN = 17
