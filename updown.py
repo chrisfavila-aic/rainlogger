@@ -1,4 +1,4 @@
-"""got from example files in Dropbox website: https://github.com/dropbox/dropbox-sdk-python/blob/master/example/updown.py
+# got from example files in Dropbox website: https://github.com/dropbox/dropbox-sdk-python/blob/master/example/updown.py
 
 """Upload the contents of your Downloads folder to Dropbox.
 
